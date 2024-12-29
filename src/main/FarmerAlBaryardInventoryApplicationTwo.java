@@ -17,14 +17,13 @@ public class FarmerAlBaryardInventoryApplicationTwo {
 			return;
 		}
 		
-		
 		// 1. run for loop on the pig array
 		for (int i = 0; i < 4; i++) {
+			
 		// 2. in the for loop create an array called pig names, get the names of the pigs using the 
 		//get names getter from the Pig class, 
 			String pigName = pigs[i].getName();
 			//save it into the pigNames string array
-			//System.out.println("Current pig: " + pigName);
 			pigNames[i] = pigName;
 		}
 		
@@ -34,9 +33,5 @@ public class FarmerAlBaryardInventoryApplicationTwo {
 			System.out.println(pigName);
 		{		
 		
-		// 3. If you want to find the loudest animal based on some other criteria, you
-		// can implement that logic here.
-		// For now, we will just print a message.
-//        System.out.println("\nNote: Loudness attribute is not included in this implementation.");
 	}}
 }
